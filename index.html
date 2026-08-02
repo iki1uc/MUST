@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>MUST – Mathematischer & Physikalischer Kern</title>
+
+<style>
+  body {
+    background:#000;
+    color:#0f0;
+    font-family:monospace;
+    padding:40px;
+  }
+  .symbol {
+    font-size:120px;
+    text-align:center;
+    margin-bottom:40px;
+  }
+  .box {
+    border:1px solid #0f0;
+    padding:20px;
+    margin-bottom:30px;
+  }
+  .label {
+    color:#6f6;
+    font-size:18px;
+  }
+  .value {
+    color:#0f0;
+    font-size:20px;
+    margin-top:5px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="symbol">∎ω</div>
+
+<div class="box">
+  <div class="label">MUST – Erhaltungssatz</div>
+  <div class="value" id="must-list">Lade MUST_MAP…</div>
+</div>
+
+<div class="box">
+  <div class="label">RAW – Anfangszustand</div>
+  <div class="value" id="raw">Lade ANKER.raw…</div>
+</div>
+
+<div class="box">
+  <div class="label">Schichten – mathematisch</div>
+  <div class="value" id="layer4">Lade schicht-aufgabe-4.csv…</div>
+</div>
+
+<div class="box">
+  <div class="label">Schichten – physikalisch</div>
+  <div class="value" id="layer6">Lade schicht-aufgabe-6.csv…</div>
+</div>
+
+<div class="box">
+  <div class="label">UNIFIED – vollständige Gleichung</div>
+  <div class="value" id="unified">Initialisiere UNIFIED_CORE…</div>
+</div>
+
+<script type="module">
+
+  import { MUST, LOAD_MAP, VECTOR_CHECK, AUTO, PIPE } from "./UNIFIED_CORE.js";
+
+  // MUST anzeigen
+  document.getElementById("must-list").innerText =
+    Object.keys(MUST).join(" · ");
+
+  // ANKER.raw laden
+  fetch("./ANKER.raw")
+    .then(r => r.text())
+    .then(t => {
+      document.getElementById("raw").innerText = t.slice(0, 200) + " …";
+    });
+
+  // Schicht 4 laden
+  fetch("./schicht-aufgabe-4.csv")
+    .then(r => r.text())
+    .then(t => {
+      document.getElementById("layer4").innerText = t.replace(/\n/g, " · ");
+    });
+
+  // Schicht 6 laden
+  fetch("./schicht-aufgabe-6.csv")
+    .then(r => r.text())
+    .then(t => {
+      document.getElementById("layer6").innerText = t.replace(/\n/g, " · ");
+    });
+
+  // UNIFIED anzeigen
+  const sample = {
+    room: "ANKER",
+    axis: 12,
+    orbit: 4,
+    pulse: "good",
+    tick: 33
+  };
+
+  AUTO(sample).then(res => {
+    const evo = PIPE(res, 3);
+    document.getElementById("unified").innerText =
+      JSON.stringify(evo, null, 2);
+  });
+
+</script>
+
+</body>
+</html>
