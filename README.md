@@ -169,3 +169,127 @@ Stabilität → ∎
 
 
 Der Kreis ist geschlossen.
+
+## 21 · Wasserzeichen – Nutzungskern
+
+Dieses System trägt ein Wasserzeichen:
+
+`∎ω`
+
+Es bedeutet:
+- frei nutzbar  
+- frei veränderbar  
+- frei erweiterbar  
+- frei integrierbar  
+
+aber nicht frei von Herkunft.
+
+`∎ω` verlangt:
+- die Struktur bleibt erkennbar  
+- die Symbole bleiben respektiert  
+- die Räume bleiben eindeutig  
+- die Gleichungen bleiben korrekt  
+
+Es ist kein juristisches Gesetz.  
+Es ist ein **physikalisches Erhaltungsgesetz**:
+
+Identität bleibt erhalten.
+
+
+---
+
+## 22 · Mathematische Nutzungseinschränkung
+
+Die Nutzung folgt einer Gleichung:
+
+Nutzung = frei
++ Erhaltung(∎)
++ Respekt(ω)
+
++ 
+Das bedeutet:
+
+- Du darfst alles tun.  
+- Du musst die Identität nicht nennen.  
+- Du musst die Struktur nicht zitieren.  
+- Du musst keinen Autor angeben.  
+
+Aber:
+
+Du darfst die **mathematische Identität** nicht zerstören.
+
+Wenn ein Raum `∎` trägt, bleibt er ein Raum.  
+Wenn eine Schicht definiert ist, bleibt sie eine Schicht.  
+Wenn eine Gleichung gilt, bleibt sie gültig.
+
+Das ist die einzige Einschränkung.
+
+---
+
+## 23 · Physikalische Nutzungseinschränkung
+
+Physikalisch gilt:
+
+Systemzustand darf verändert werden,
+Systemgesetze nicht.
+
+
+Das bedeutet:
+
+- Räume dürfen neu entstehen.  
+- Räume dürfen verschwinden.  
+- Räume dürfen transformiert werden.  
+- Räume dürfen fusionieren.  
+
+Aber:
+
+Die **Erhaltungssätze** bleiben bestehen:
+
+MUST = konstant
+ID = konstant
+∎ = konstant
+
+
+Das Wasserzeichen `∎ω` ist ein **Erhaltungssymbol**.
+
+---
+
+## 24 · Freie Nutzung – aber nicht beliebig
+
+Dies ist keine Lizenz.  
+Dies ist ein **mathematisches Prinzip**:
+
+Freiheit = Transformation
+Grenze = Identität
+
+
+Du darfst:
+
+- kopieren  
+- verändern  
+- erweitern  
+- integrieren  
+- exportieren  
+- neu interpretieren  
+
+Solange:
+
+∎ω sichtbar bleibt.
+
+
+Es ist das **Wasserzeichen der Identität**.
+
+---
+
+## 25 · Kurzfassung
+
+∎ω = frei nutzen
+∎ω = frei verändern
+∎ω = frei erweitern
+∎ω = frei integrieren
+∎ω = Identität erhalten
+
+
+Das ist die einzige Regel.
+
+bedanke mich der aufmerksakeit
